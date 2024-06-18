@@ -10,7 +10,24 @@ editor: visual
 
 Modify with methods
 
-## PART1
+## 1. Building barcode-specific reference databases
+
+Several approaches and associated tools are available to build barcode-specific reference databases, including `CRABS`, `rCRUX`, `RESCRIPt`, `METACURATOR`, and `ECOPCR`, among other (sources). Previous work has demonstrated the
+
+Here, we make use of `CRABS` and `rCRUX` to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.
+
+***CRABS reference database***
+
+First, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).
+
+| Database | Search query                                                                          | Explanation                                                                        |
+|----------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
+| NCBI     | --database nucleotide --query '12S\[All Fields\] AND ("1"\[SLEN\] : "50000"\[SLEN\])' | Restricts the search to 12S sequences no longer than 50,000 bp.                    |
+| BOLD     | --database 'Actinopterygii\|Aves\|Mammalia\|Reptilia\|Amphibia'                       | Restricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.  |
+| EMBL     | --database 'vrt\*'                                                                    | Restricts the search to vertebrates.                                               |
+| MitoFish | No search query                                                                       | Already restricted to mitochondrial sequences of fish species.                     |
+
+: **Table 1**:
 
 ## PART2
 
