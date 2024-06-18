@@ -34,7 +34,9 @@ website:
 
 format:
   html:
-    theme: minty
+    theme:
+      light: united
+      dark: superhero
     #css: styles.css
     toc: true
     

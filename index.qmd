@@ -25,7 +25,7 @@ editor_options:
 
 ## Authors
 
-Thomas Luypaert^1^, Tomas Hrebek^2,3^, Izeni Fatias^2,3^, Carlos Peres^4,5^, Torbjørn Haugaasen^1^
+Thomas Luypaert^1^, Tomas Hrebek^2,3^, Izeni Farias^2,3^, Carlos Peres^4,5^, Torbjørn Haugaasen^1^
 
 > (1) Tropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\
 >     Corresponding email: [thomas.luypaert\@nmbu.no](mailto:thomas.luypaert@nmbu.no) or [thomas.luypaert\@outlook.com](mailto:thomas.luypaert@outlook.com)
