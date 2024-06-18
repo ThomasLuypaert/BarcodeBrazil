@@ -186,7 +186,7 @@
 \subsection{Authors}\label{authors}
 
 Thomas Luypaert\textsuperscript{1}, Tomas Hrebek\textsuperscript{2,3},
-Izeni Fatias\textsuperscript{2,3}, Carlos Peres\textsuperscript{4,5},
+Izeni Farias\textsuperscript{2,3}, Carlos Peres\textsuperscript{4,5},
 Torbjørn Haugaasen\textsuperscript{1}
 
 \begin{quote}
@@ -250,7 +250,69 @@ Write paper introduction here
 
 Modify with methods
 
-\subsection{PART1}\label{part1}
+\subsection{1. Building barcode-specific reference
+databases}\label{building-barcode-specific-reference-databases}
+
+Several approaches and associated tools are available to build
+barcode-specific reference databases, including \texttt{CRABS},
+\texttt{rCRUX}, \texttt{RESCRIPt}, \texttt{METACURATOR}, and
+\texttt{ECOPCR}, among other (sources). Previous work has demonstrated
+the
+
+Here, we make use of \texttt{CRABS} and \texttt{rCRUX} to build custom
+reference databases for X commonly used vertebrate barcodes: (i) 12S
+MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode;
+(iv) a final barcode.
+
+\textbf{\emph{CRABS reference database}}
+
+First, we retrieved sequencing data for each barcode from up to four
+online repositories: (i) National Centre for Biotechnology Innovation
+(NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data
+System (BOLD - options here); European Molecular Biology Laboratory
+(EMBL - options here); and the Mitochondrial Genome Database of Fish
+(MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain
+only relevant sequences using database-specific search queries (Table
+X).
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.0552}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4807}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.4641}}@{}}
+\caption{\textbf{Table 1}:}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Database
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Search query
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Explanation
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Database
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Search query
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Explanation
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+NCBI & --database nucleotide --query `12S{[}All Fields{]} AND
+(``1''{[}SLEN{]} : ``50000''{[}SLEN{]})' & Restricts the search to 12S
+sequences no longer than 50,000 bp. \\
+BOLD & --database
+`Actinopterygii\textbar Aves\textbar Mammalia\textbar Reptilia\textbar Amphibia'
+& Restricts the search to ray-finned fish, birds, mammals, reptiles and
+amphibians. \\
+EMBL & --database `vrt*' & Restricts the search to vertebrates. \\
+MitoFish & No search query & Already restricted to mitochondrial
+sequences of fish species. \\
+\end{longtable}
 
 \subsection{PART2}\label{part2}
 
