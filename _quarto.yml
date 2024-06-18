@@ -1,0 +1,40 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Barcode-Brazil: eDNA reference databases\n"
+  sidebar:
+    background: primary
+    # logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/ThomasLuypaert/BarcodeBrazil
+        text: GitHub
+      - icon: twitter
+        href: https://twitter.com/intent/tweet?related=github&text=Pollinator%20contribution%20to%20crop%20yield%20dynamic%20modeling&url=https%3A%2F%2Fibartomeus.github.io%2FCropPollinationModels&hashtags=Pollinators
+    style: floating
+    search: true
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: introduction.qmd
+        text: Introduction
+      - href: results.qmd
+        text: Results
+      - href: methods.qmd
+        text: Methods
+      - href: what_next.qmd
+        text: What next? 
+      - href: references.qmd
+        text: References  
+      
+
+format:
+  html:
+    theme: minty
+    #css: styles.css
+    toc: true
+    

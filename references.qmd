@@ -1,0 +1,11 @@
+---
+title: "Barcode-Brazil: eDNA reference databases"
+format: html
+editor: visual
+---
+
+::: {.content-visible when-format="html"}
+# References
+:::
+
+Modify with scientific references

@@ -1,0 +1,73 @@
+---
+title: "Barcode-Brazil: eDNA reference databases"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+::: {.content-visible when-format="html"}
+# Results
+:::
+
+```{r load__more_things, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+# source the data created using "scripts/read_data.R", which is triggered by track_estimates.R file.
+# load("scripts/temp_data.RData") 
+# library(lme4)
+
+```
+
+### 1) Question 1 ?
+
+Observations here
+
+```{r Fig1, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# script to make figure
+
+```
+
+**Fig 1:** A figure caption here
+
+### 2) Question 2?
+
+```{r Fig2, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# Some script here to generate results
+
+```
+
+**Fig 2:** Another caption
+
+Some more text about observations here
+
+```{r Fig3, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+
+
+```
+
+**Fig 3:** Another caption
+
+### 3) Question 3?
+
+Some dynamic text here, see example below
+
+```{r Fig4, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+# The mean wild insects estimate is r round(a["wild_insects_z"], 3), and the honeybee mean estimate is r round(a["honeybee_z"], 3). Overall, species richness has a shallower positive effect on yield (pollinator richness estimate is r round(a["richness_z"],3))
+
+```
+
+**Fig 4:** Another caption.
+
+### 4) Question 4?
+
+Some more supporting text.
+
+```{r Fig5, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+
+```
+
+**Fig 5:** Final caption

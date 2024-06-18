@@ -1,0 +1,66 @@
+---
+title: "Barcode-Brazil: eDNA reference databases"
+format: html
+editor: visual
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r load_things, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+# library(gh) #How heavy would this library be?
+# releases <- gh("GET /repos/ibartomeus/OBservData/releases", 
+#    owner = "ibartomeus",
+#    repo = "OBservData")
+# versionCropPol <- releases[[1]][["tag_name"]]
+# 
+# #readLines("https://github.com/ibartomeus/OBservData/releases/latest") #can we do this using base r? This web resolves to the last tag...
+# 
+# releases <- gh("GET /repos/ibartomeus/CropPollinationModels/releases", 
+#    owner = "ibartomeus",
+#    repo = "CropPollinationModels")
+# versionCropPollinationModels <- releases[[1]][["tag_name"]]
+# 
+# estimates <- read.csv("scripts/estimates_data.csv")
+```
+
+## Authors
+
+Thomas Luypaert^1^, Tomas Hrebek^2,3^, Izeni Fatias^2,3^, Carlos Peres^4,5^, Torbjørn Haugaasen^1^
+
+> (1) Tropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\
+>     Corresponding email: [thomas.luypaert\@nmbu.no](mailto:thomas.luypaert@nmbu.no) or [thomas.luypaert\@outlook.com](mailto:thomas.luypaert@outlook.com)
+>
+> (2) Affiliation Izeni and Tomas
+>
+> (3) Affiliation 2 Izeni and Tomas
+>
+> (4) Affiliation Carlos
+>
+> (5) Affiliation two Carlos
+
+**Last update:** `r Sys.Date()`
+
+## Abstract
+
+Dynamic abstract here - see example below
+
+```{r}
+# Over 75% percent of the world's food crops are dependent on pollinators to at least some degree (IPBES 2017). However, the precise degree of pollinators contribution to crop yield is uncertain because there is a large variability in crop types, pollinator communities, agricultural practices and environmental contexts. Fortunately, since the first case studies reporting a positive effect of pollinators on crop yield, more and more data has accumulated. This allowed us to synthesize what we know (e.g. Garibaldi et al. 2013, Rader et al. 2016, Dainese et al. 2019). However, as the question is data hungry and is still not settled, we aim to embrace this uncertainty and periodically report updates as our knowledge increases. This repository uses CropPol r versionCropPol, an open database with r estimates[nrow(estimates), "n"] studies to regress the abundance and richness of wildbees and honeybees on crop yield. Currently, the overall estimate of wild bee abundances is r round(estimates[nrow(estimates), "estimate_WI"], 3) and that of honeybees is r round(estimates[nrow(estimates), "estimate_HB"], 3). Pollinator richness has an estimate of r round(estimates[nrow(estimates), "estimate_richness"], 3). By providing a dynamic assessment of how our knowledge changes as more data is available, we ensure updated answers to key questions in ecology.
+```
+
+### How to cite this:
+
+```{r}
+# this dynamic document directly: J. Reilly, A. Allen-Perkins, R. Winfree, I. Bartomeus. r substr(Sys.Date(), 1, 4) Pollinator contribution to crop yield. version r versionCropPollinationModels. DOI: 10.5281/zenodo.7481551.
+# 
+# Or the original paper: TBA
+
+```
+
+### Download in PDF:
+
+[https://github.com/ThomasLuypaert/BarcodeBrazil/Report_BarcodeBrazil.pdf](https://github.com/ThomasLuypaert/BarcodeBrazil){.uri}
+
+### Source code:
+
+You can find the source code, as well as previous releases of this repository at: <https://github.com/ThomasLuypaert/BarcodeBrazil>
