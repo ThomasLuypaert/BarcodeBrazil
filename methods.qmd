@@ -1,5 +1,5 @@
 ---
-title: "Barcode-Brazil: eDNA reference databases"
+title: "BR-code: Vertebrates"
 format: html
 editor: visual
 ---
@@ -22,12 +22,12 @@ First, we retrieved sequencing data for each barcode from up to four online repo
 
 These we supplemented by: ... MIDORI...
 
-| Database | Search query                                                                          | Explanation                                                                        |
-|----------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
-| NCBI     | --database nucleotide --query '12S\[All Fields\] AND ("1"\[SLEN\] : "50000"\[SLEN\])' | Restricts the search to 12S sequences no longer than 50,000 bp.                    |
-| BOLD     | --database 'Actinopterygii\|Aves\|Mammalia\|Reptilia\|Amphibia'                       | Restricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.  |
-| EMBL     | --database 'vrt\*'                                                                    | Restricts the search to vertebrates.                                               |
-| MitoFish | No search query                                                                       | Already restricted to mitochondrial sequences of fish species.                     |
+| Database | Search query                                                                          | Explanation                                                                       |
+|--------------|------------------------------|-----------------------------|
+| NCBI     | --database nucleotide --query '12S\[All Fields\] AND ("1"\[SLEN\] : "50000"\[SLEN\])' | Restricts the search to 12S sequences no longer than 50,000 bp.                   |
+| BOLD     | --database 'Actinopterygii\|Aves\|Mammalia\|Reptilia\|Amphibia'                       | Restricts the search to ray-finned fish, birds, mammals, reptiles and amphibians. |
+| EMBL     | --database 'vrt\*'                                                                    | Restricts the search to vertebrates.                                              |
+| MitoFish | No search query                                                                       | Already restricted to mitochondrial sequences of fish species.                    |
 
 : **Table 1**:
 

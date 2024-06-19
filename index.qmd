@@ -1,5 +1,5 @@
 ---
-title: "Barcode-Brazil: eDNA reference databases"
+title: "BR-code: Vertebrates"
 format: html
 editor: visual
 editor_options: 
@@ -22,6 +22,10 @@ editor_options:
 # 
 # estimates <- read.csv("scripts/estimates_data.csv")
 ```
+
+# BR-code: Vertebrates
+
+### *A dynamic resource for profiling environmental DNA reference database accuracy and completeness*
 
 ## Authors
 
