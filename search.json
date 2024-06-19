@@ -14,7 +14,17 @@
     "href": "methods.html",
     "title": "Barcode-Brazil: eDNA reference databases",
     "section": "",
-    "text": "Modify with methods",
+    "text": "Modify with methods\n\n\nSeveral approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "methods.html#building-barcode-specific-reference-databases",
+    "href": "methods.html#building-barcode-specific-reference-databases",
+    "title": "Barcode-Brazil: eDNA reference databases",
+    "section": "",
+    "text": "Several approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
     "crumbs": [
       "Methods"
     ]
@@ -34,7 +44,7 @@
     "href": "index.html",
     "title": "Barcode-Brazil: eDNA reference databases",
     "section": "",
-    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Fatias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-18",
+    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19",
     "crumbs": [
       "Home"
     ]
@@ -44,7 +54,7 @@
     "href": "index.html#authors",
     "title": "Barcode-Brazil: eDNA reference databases",
     "section": "",
-    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Fatias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-18",
+    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19",
     "crumbs": [
       "Home"
     ]
