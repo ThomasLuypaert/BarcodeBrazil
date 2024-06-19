@@ -1,78 +1,8 @@
 [
   {
-    "objectID": "results.html",
-    "href": "results.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Results\n\n1) Question 1 ?\nObservations here\nFig 1: A figure caption here\n\n\n2) Question 2?\nFig 2: Another caption\nSome more text about observations here\nFig 3: Another caption\n\n\n3) Question 3?\nSome dynamic text here, see example below\nFig 4: Another caption.\n\n\n4) Question 4?\nSome more supporting text.\nFig 5: Final caption",
-    "crumbs": [
-      "Results"
-    ]
-  },
-  {
-    "objectID": "methods.html",
-    "href": "methods.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Modify with methods\n\n\nSeveral approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
-    "crumbs": [
-      "Methods"
-    ]
-  },
-  {
-    "objectID": "methods.html#building-barcode-specific-reference-databases",
-    "href": "methods.html#building-barcode-specific-reference-databases",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Several approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
-    "crumbs": [
-      "Methods"
-    ]
-  },
-  {
-    "objectID": "introduction.html",
-    "href": "introduction.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Introduction\nWrite paper introduction here",
-    "crumbs": [
-      "Introduction"
-    ]
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#authors",
-    "href": "index.html#authors",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "",
-    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "index.html#abstract",
-    "href": "index.html#abstract",
-    "title": "Barcode-Brazil: eDNA reference databases",
-    "section": "Abstract",
-    "text": "Abstract\nDynamic abstract here - see example below\n\n# Over 75% percent of the world's food crops are dependent on pollinators to at least some degree (IPBES 2017). However, the precise degree of pollinators contribution to crop yield is uncertain because there is a large variability in crop types, pollinator communities, agricultural practices and environmental contexts. Fortunately, since the first case studies reporting a positive effect of pollinators on crop yield, more and more data has accumulated. This allowed us to synthesize what we know (e.g. Garibaldi et al. 2013, Rader et al. 2016, Dainese et al. 2019). However, as the question is data hungry and is still not settled, we aim to embrace this uncertainty and periodically report updates as our knowledge increases. This repository uses CropPol r versionCropPol, an open database with r estimates[nrow(estimates), \"n\"] studies to regress the abundance and richness of wildbees and honeybees on crop yield. Currently, the overall estimate of wild bee abundances is r round(estimates[nrow(estimates), \"estimate_WI\"], 3) and that of honeybees is r round(estimates[nrow(estimates), \"estimate_HB\"], 3). Pollinator richness has an estimate of r round(estimates[nrow(estimates), \"estimate_richness\"], 3). By providing a dynamic assessment of how our knowledge changes as more data is available, we ensure updated answers to key questions in ecology.\n\n\nHow to cite this:\n\n# this dynamic document directly: J. Reilly, A. Allen-Perkins, R. Winfree, I. Bartomeus. r substr(Sys.Date(), 1, 4) Pollinator contribution to crop yield. version r versionCropPollinationModels. DOI: 10.5281/zenodo.7481551.\n# \n# Or the original paper: TBA\n\n\n\nDownload in PDF:\nhttps://github.com/ThomasLuypaert/BarcodeBrazil/Report_BarcodeBrazil.pdf\n\n\nSource code:\nYou can find the source code, as well as previous releases of this repository at: https://github.com/ThomasLuypaert/BarcodeBrazil",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
     "objectID": "what_next.html",
     "href": "what_next.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
+    "title": "BR-code: Vertebrates",
     "section": "",
     "text": "What next?\nSome text here",
     "crumbs": [
@@ -82,11 +12,81 @@
   {
     "objectID": "references.html",
     "href": "references.html",
-    "title": "Barcode-Brazil: eDNA reference databases",
+    "title": "BR-code: Vertebrates",
     "section": "",
     "text": "References\nModify with scientific references",
     "crumbs": [
       "References"
+    ]
+  },
+  {
+    "objectID": "methods.html",
+    "href": "methods.html",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Modify with methods\n\n\nSeveral approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "methods.html#building-barcode-specific-reference-databases",
+    "href": "methods.html#building-barcode-specific-reference-databases",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Several approaches and associated tools are available to build barcode-specific reference databases, including CRABS, rCRUX, RESCRIPt, METACURATOR, and ECOPCR, among other (sources). Previous work has demonstrated the\nHere, we make use of CRABS and rCRUX to build custom reference databases for X commonly used vertebrate barcodes: (i) 12S MiMammal (source); (ii) 12S Riaz (source); (iii) some other barcode; (iv) a final barcode.\nCRABS reference database\nFirst, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).\nThese we supplemented by: … MIDORI…\n\nTable 1:\n\n\n\n\n\n\n\nDatabase\nSearch query\nExplanation\n\n\n\n\nNCBI\n–database nucleotide –query ‘12S[All Fields] AND (“1”[SLEN] : “50000”[SLEN])’\nRestricts the search to 12S sequences no longer than 50,000 bp.\n\n\nBOLD\n–database ‘Actinopterygii|Aves|Mammalia|Reptilia|Amphibia’\nRestricts the search to ray-finned fish, birds, mammals, reptiles and amphibians.\n\n\nEMBL\n–database ‘vrt*’\nRestricts the search to vertebrates.\n\n\nMitoFish\nNo search query\nAlready restricted to mitochondrial sequences of fish species.",
+    "crumbs": [
+      "Methods"
+    ]
+  },
+  {
+    "objectID": "results.html",
+    "href": "results.html",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Results\n\n1) Question 1 ?\nObservations here\nFig 1: A figure caption here\n\n\n2) Question 2?\nFig 2: Another caption\nSome more text about observations here\nFig 3: Another caption\n\n\n3) Question 3?\nSome dynamic text here, see example below\nFig 4: Another caption.\n\n\n4) Question 4?\nSome more supporting text.\nFig 5: Final caption",
+    "crumbs": [
+      "Results"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19\n\n\n\nDynamic abstract here - see example below\n\n# Over 75% percent of the world's food crops are dependent on pollinators to at least some degree (IPBES 2017). However, the precise degree of pollinators contribution to crop yield is uncertain because there is a large variability in crop types, pollinator communities, agricultural practices and environmental contexts. Fortunately, since the first case studies reporting a positive effect of pollinators on crop yield, more and more data has accumulated. This allowed us to synthesize what we know (e.g. Garibaldi et al. 2013, Rader et al. 2016, Dainese et al. 2019). However, as the question is data hungry and is still not settled, we aim to embrace this uncertainty and periodically report updates as our knowledge increases. This repository uses CropPol r versionCropPol, an open database with r estimates[nrow(estimates), \"n\"] studies to regress the abundance and richness of wildbees and honeybees on crop yield. Currently, the overall estimate of wild bee abundances is r round(estimates[nrow(estimates), \"estimate_WI\"], 3) and that of honeybees is r round(estimates[nrow(estimates), \"estimate_HB\"], 3). Pollinator richness has an estimate of r round(estimates[nrow(estimates), \"estimate_richness\"], 3). By providing a dynamic assessment of how our knowledge changes as more data is available, we ensure updated answers to key questions in ecology.\n\n\n\n\n# this dynamic document directly: J. Reilly, A. Allen-Perkins, R. Winfree, I. Bartomeus. r substr(Sys.Date(), 1, 4) Pollinator contribution to crop yield. version r versionCropPollinationModels. DOI: 10.5281/zenodo.7481551.\n# \n# Or the original paper: TBA\n\n\n\n\nhttps://github.com/ThomasLuypaert/BarcodeBrazil/Report_BarcodeBrazil.pdf\n\n\n\nYou can find the source code, as well as previous releases of this repository at: https://github.com/ThomasLuypaert/BarcodeBrazil",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#authors",
+    "href": "index.html#authors",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Thomas Luypaert1, Tomas Hrebek2,3, Izeni Farias2,3, Carlos Peres4,5, Torbjørn Haugaasen1\n\n\nTropical Rainforest Ecology Lab (TREcoL), Faculty of Environmental Sciences and Natural Resource Management, Norwegian University of Life Sciences, Ås, Norway\nCorresponding email: thomas.luypaert@nmbu.no or thomas.luypaert@outlook.com\nAffiliation Izeni and Tomas\nAffiliation 2 Izeni and Tomas\nAffiliation Carlos\nAffiliation two Carlos\n\n\nLast update: 2024-06-19",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "index.html#abstract",
+    "href": "index.html#abstract",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Dynamic abstract here - see example below\n\n# Over 75% percent of the world's food crops are dependent on pollinators to at least some degree (IPBES 2017). However, the precise degree of pollinators contribution to crop yield is uncertain because there is a large variability in crop types, pollinator communities, agricultural practices and environmental contexts. Fortunately, since the first case studies reporting a positive effect of pollinators on crop yield, more and more data has accumulated. This allowed us to synthesize what we know (e.g. Garibaldi et al. 2013, Rader et al. 2016, Dainese et al. 2019). However, as the question is data hungry and is still not settled, we aim to embrace this uncertainty and periodically report updates as our knowledge increases. This repository uses CropPol r versionCropPol, an open database with r estimates[nrow(estimates), \"n\"] studies to regress the abundance and richness of wildbees and honeybees on crop yield. Currently, the overall estimate of wild bee abundances is r round(estimates[nrow(estimates), \"estimate_WI\"], 3) and that of honeybees is r round(estimates[nrow(estimates), \"estimate_HB\"], 3). Pollinator richness has an estimate of r round(estimates[nrow(estimates), \"estimate_richness\"], 3). By providing a dynamic assessment of how our knowledge changes as more data is available, we ensure updated answers to key questions in ecology.\n\n\n\n\n# this dynamic document directly: J. Reilly, A. Allen-Perkins, R. Winfree, I. Bartomeus. r substr(Sys.Date(), 1, 4) Pollinator contribution to crop yield. version r versionCropPollinationModels. DOI: 10.5281/zenodo.7481551.\n# \n# Or the original paper: TBA\n\n\n\n\nhttps://github.com/ThomasLuypaert/BarcodeBrazil/Report_BarcodeBrazil.pdf\n\n\n\nYou can find the source code, as well as previous releases of this repository at: https://github.com/ThomasLuypaert/BarcodeBrazil",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "introduction.html",
+    "href": "introduction.html",
+    "title": "BR-code: Vertebrates",
+    "section": "",
+    "text": "Introduction\nWrite paper introduction here",
+    "crumbs": [
+      "Introduction"
     ]
   }
 ]
