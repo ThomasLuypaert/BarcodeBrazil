@@ -20,6 +20,8 @@ Here, we make use of `CRABS` and `rCRUX` to build custom reference databases for
 
 First, we retrieved sequencing data for each barcode from up to four online repositories: (i) National Centre for Biotechnology Innovation (NCBI - 12S MiMammal, 12S Riaz, more options here); Barcode of Life Data System (BOLD - options here); European Molecular Biology Laboratory (EMBL - options here); and the Mitochondrial Genome Database of Fish (MitoFish - 12S MiMammal, 12S Riaz). We fine-tuned our search to contain only relevant sequences using database-specific search queries (Table X).
 
+These we supplemented by: ... MIDORI...
+
 | Database | Search query                                                                          | Explanation                                                                        |
 |----------|---------------------------------------------------------------------------------------|------------------------------------------------------------------------------------|
 | NCBI     | --database nucleotide --query '12S\[All Fields\] AND ("1"\[SLEN\] : "50000"\[SLEN\])' | Restricts the search to 12S sequences no longer than 50,000 bp.                    |
