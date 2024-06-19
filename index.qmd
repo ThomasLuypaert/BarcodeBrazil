@@ -23,9 +23,7 @@ editor_options:
 # estimates <- read.csv("scripts/estimates_data.csv")
 ```
 
-# BR-code: Vertebrates
-
-### *A dynamic resource for profiling environmental DNA reference database accuracy and completeness*
+***"A dynamic resource for profiling environmental DNA reference database accuracy and completeness"***
 
 ## Authors
 

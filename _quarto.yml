@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Barcode-Brazil: eDNA reference databases\n"
+  title: "BR-code: Vertebrates\n"
   sidebar:
     background: primary
     # logo: "images/logo.png"
